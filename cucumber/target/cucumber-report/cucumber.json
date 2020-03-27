@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-27T09:10:06.114Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8764000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenition.Hooks.testStart()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Visitor would like find a good hotel for his trip",
+        "description": "",
+        "id": "visitor-finds-a-hotel-for-his-trip;visitor-would-like-find-a-good-hotel-for-his-trip",
+        "after": [
+          {
+            "result": {
+              "duration": 3112000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenition.Hooks.scenarioFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19810000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "He finds hotel on the vntrip website",
+            "match": {
+              "location": "stepdefenition.Finds_Hotel_Defs.he_finds_hotel_on_the_vntrip_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25272000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "He attempts to search with a destination, check in date and check out date",
+            "match": {
+              "location": "stepdefenition.Finds_Hotel_Defs.he_attempts_to_search_with_a_destination_check_in_date_and_check_out_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2157000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "He sees that the list of hotel will be shown",
+            "match": {
+              "location": "stepdefenition.Finds_Hotel_Defs.he_sees_that_the_list_of_hotel_will_be_shown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Visitor finds a hotel for his trip",
+    "description": "",
+    "id": "visitor-finds-a-hotel-for-his-trip",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/tra/FindHotel.feature",
+    "tags": []
+  }
+]
